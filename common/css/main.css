@@ -1,0 +1,82 @@
+/* #ifndef APP-NVUE */
+/* 设置全局样式 */
+/* (1) 页面高度100%,默认字体28upx,默认行高1.4,背景颜色 */
+page{
+	/* height: 100%; */
+	font-size: 28rpx;
+	line-height: 1.4;
+	background: #f5f5f5;
+}
+
+button{border: 0;padding: 0;margin: 0;}
+button:after{border: 0;}
+
+/* (2) 图片默认100%宽度 */
+image{  width: 100%;height: 100%;box-sizing: border-box; display: block;}
+::-webkit-scrollbar{
+	display: none;
+}
+uni-button:after{border: 0;}
+
+/* 无数据 */
+.nodata{width: 360rpx;height: 360rpx;margin:100rpx auto;}
+.nodata image{width: 100%;height: 100%;}
+
+/* 右侧固定按钮 */
+.R-fixIcon{width: 90rpx;height: 90rpx;position: fixed;bottom:40%;right:20rpx;z-index:30;}
+.R-fixIcon image{width: 100%;height: 100%;}
+
+/* 购物车按钮显示数量 */
+.carNum{position: absolute;left: 75%;top: -12rpx;z-index: 2;height: 30rpx;line-height: 30rpx;min-width: 30rpx;border-radius: 20rpx;box-sizing: border-box;font-size: 22rpx; color:#fff;padding: 0 6rpx;background-color: #ed0000; text-align: center;}
+
+/* #endif */
+/* 主色调 */
+/* 主背景颜色（橙色）*/
+.Mgb{background-color: #329CFF;}
+.bg-f5{background-color: #f5f5f5;}
+/* 主点击背景颜色（淡橙色）*/
+
+/* 主字体颜色（橙色）*/
+.Mcolor{color: #329CFF;}
+/* 主边框颜色 */
+
+
+.input-border-color{
+	border-color: #ffb2c2;
+}
+
+
+.f5Bj-H10{height: 10rpx; background: #f5f5f5;}
+.f5Bj-H20{ height: 20rpx; background: #f5f5f5;}
+.f5bj{background: #f5f5f5;}
+.whiteBj{background: #fff;}
+
+.price{ color: #e01313;}
+.price::before{content: "￥";font-size: 24rpx;}
+.priceIcon{width: 28rpx;height: 28rpx;margin-right: 8rpx;}
+.priceF{ color: #e01313;}
+.priceF::before{content: "积分:";font-size: 24rpx;}
+.priceM::after{content: "/㎡";}
+.yuanJia{ color: #999; font-size: 24rpx; text-decoration: line-through; }
+.yuanJia::before{content: "￥";}
+
+
+.item{box-shadow: 0 0 8rpx 0 rgba(0,0,0,0.1);padding: 20rpx 20rpx 30rpx;}
+.item view{width: 610rpx;}
+
+/* 提交按钮 */
+.icon{width: 10rpx;height: 20rpx;margin-left: 10rpx;}
+.icon1{width: 32rpx;height: 32rpx;margin-right: 10rpx;}
+.icon2{width: 30rpx;height: 30rpx;margin-right: 10rpx;margin-top: 10rpx;}
+.icon3{width: 28rpx;height: 28rpx;position: absolute;left: 50rpx;}
+
+/* 页面铺满背景图 */
+
+
+/* 顶部返回箭头按钮 */
+
+
+/* 会员标签 */
+
+
+
