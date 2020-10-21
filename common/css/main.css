@@ -67,7 +67,7 @@ uni-button:after{border: 0;}
 /* 提交按钮 */
 .icon{width: 10rpx;height: 20rpx;margin-left: 10rpx;}
 .icon1{width: 32rpx;height: 32rpx;margin-right: 10rpx;}
-.icon2{width: 30rpx;height: 30rpx;margin-right: 10rpx;margin-top: 10rpx;}
+.icon2{width: 30rpx;height: 30rpx;margin-right: 10rpx;margin-top: 6rpx;}
 .icon3{width: 28rpx;height: 28rpx;position: absolute;left: 50rpx;}
 
 /* 页面铺满背景图 */

@@ -3,13 +3,12 @@ import config from "@/config/index.config.js";
 
 
 export default {
-
-
-	WxJssdk(param, callback) {
-
+	
+	messageGet(param, callback) {
 		var allParams = {
-			url: 'WxJssdk',
+			url: 'Common/Message/get',
 			type: 'post',
+			noToken: true,
 			data: param,
 			sCallback: function(data) {
 				callback && callback(data);
@@ -17,116 +16,10 @@ export default {
 		};
 		http.HTTP(allParams);
 	},
-
-	registerSuper(param, callback) {
-
+	
+	messageAdd(param, callback) {
 		var allParams = {
-			url: 'Project/Solely/registerSuper',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-
-	bindShop(param, callback) {
-
-		var allParams = {
-			url: 'Project/Solely/bindShop',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-	monthFlow(param, callback) {
-
-		var allParams = {
-			url: 'Project/Solely/monthFlow',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-	teamTotal(param, callback) {
-
-		var allParams = {
-			url: 'Project/Solely/teamTotal',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-	teamFlow(param, callback) {
-
-		var allParams = {
-			url: 'Project/Solely/teamFlow',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-	teamOrder(param, callback) {
-
-		var allParams = {
-			url: 'Project/Solely/teamOrder',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-	teamRank(param, callback) {
-
-		var allParams = {
-			url: 'Project/Solely/teamRank',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-
-	getTeam(param, callback) {
-
-		var allParams = {
-			url: 'Project/Solely/getTeamv',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-	SkuDateGet(param, callback) {
-		var allParams = {
-			url: 'Common/SkuDate/get',
+			url: 'Common/Message/add',
 			type: 'post',
 			noToken: true,
 			data: param,
@@ -140,19 +33,6 @@ export default {
 	labelGet(param, callback) {
 		var allParams = {
 			url: 'Common/Label/get',
-			type: 'post',
-			noToken: true,
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-	tokenGet(param, callback) {
-		var allParams = {
-			url: 'Project/Solely/getToken',
 			type: 'post',
 			noToken: true,
 			data: param,
@@ -188,6 +68,7 @@ export default {
 		};
 		http.HTTP(allParams);
 	},
+	
 	userUpdate(param, callback) {
 		var allParams = {
 			url: 'Base/User/update',
@@ -225,17 +106,6 @@ export default {
 	},
 
 
-	codeGet(param, callback) {
-		var allParams = {
-			url: 'Project/Solely/getCode',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
 	
 
 	productGet(param, callback) {
@@ -253,31 +123,6 @@ export default {
 		http.HTTP(allParams);
 	},
 	
-	qrDateGet(param, callback) {
-		var allParams = {
-			url: 'Common/QrDate/get',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
-
-
-
-	getQrCommonCode(param, callback) {
-		var allParams = {
-			url: 'Base/Qr/PHPQrGet',
-			type: 'post',
-			data: param,
-			sCallback: function(data) {
-				callback && callback(data);
-			}
-		};
-		http.HTTP(allParams);
-	},
 
 	qrCodeGet(param, callback) {
 		var allParams = {

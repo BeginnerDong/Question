@@ -3,35 +3,32 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "首页",//设置页面标题文字
-				"onReachBottomDistance":100
+				"navigationBarTitleText": "首页", //设置页面标题文字
+				"onReachBottomDistance": 100
+			}
+		}, {
+			"path": "pages/question-submit/question-submit",
+			"style": {
+				"navigationBarTitleText": "问题提交"
+			}
+		}, {
+			"path": "pages/question/question",
+			"style": {
+				"navigationBarTitleText": "问题"
+			}
+		}, {
+			"path": "pages/question-search/question-search",
+			"style": {
+				"navigationBarTitleText": "查询问题",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "pages/question-detail/question-detail",
+			"style": {
+				"navigationBarTitleText": "问题详情"
 			}
 		}
-        ,{
-            "path" : "pages/question-submit/question-submit",
-            "style" : {
-							"navigationBarTitleText": "问题提交"
-						}
-        }
-        ,{
-            "path" : "pages/question/question",
-            "style" : {
-							"navigationBarTitleText": "问题"
-						}
-        }
-        ,{
-            "path" : "pages/question-search/question-search",
-            "style" : {
-							"navigationBarTitleText": "查询问题"
-						}
-        }
-        ,{
-            "path" : "pages/question-detail/question-detail",
-            "style" : {
-							"navigationBarTitleText": "问题详情"
-						}
-        }
-    ],
+	],
 	"globalStyle": {
 		//"navigationStyle":"custom",
 		"navigationBarTextStyle": "black",
